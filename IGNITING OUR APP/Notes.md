@@ -39,4 +39,4 @@ https://www.linkedin.com/pulse/what-difference-between-packagejson-package-lockj
 
 - u dont have to push nodemodules in git( as it is heavy)
     - with package.json and package-lock.json we can recreate the nodemodules
-    ##### npm install 
+    #f03c15 -  npm install 
