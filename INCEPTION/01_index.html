@@ -1,0 +1,32 @@
+<!-- Emmet -->
+<!-- vs code develops code by its own -->
+<!-- eg html:5 -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Namaste React</title>
+</head>
+<body>
+    <div id="root">  <!--root div-->
+        <script>
+            const heading = document.createElement("h1");
+            heading.innerHTML = "Hello World from Javascript!";
+            const root = document.getElementById("root")
+            
+            // adding h1 element(created using document.createElement) with content 
+            // with content "Hello wo...." (content creation by .innerHTML)
+            // as child node to the parent node "root" 
+            root.appendChild(heading) 
+            
+            </script>
+        <!-- <h1>Hello World!</h1> -->
+    </div>
+</body>
+</html>
+
+
+<!--  these document innerHTML createElement getElementById appendChild extra are already in the browser >> js engine -->
+<!-- but browser dont know react -->
+

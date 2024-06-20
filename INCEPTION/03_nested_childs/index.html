@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css">
+    <title>nested</title>
+</head>
+<body>
+    <h1>top of root</h1>
+    <div id="anyname">
+        <h1>
+            this text will be replaced(not appended) by whatever that is passing in the render method after the engine reaching line 18
+            refresh fastly and find me
+        </h1>
+    </div>
+    <h1>below the root</h1>
+    <br>
+    <h2 style="color: red;">
+        react only works inside the element with id
+        that passing to the createRoot(.document.getElementById(*******))
+    </h2>
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+    <script src="./App.js"></script>
+  
+</body>
+</html>

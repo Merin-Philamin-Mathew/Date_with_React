@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Including React</title>
+</head>
+<body>
+    <div id="root">
+        <!-- try to console with this link  -->
+        <!-- getting "React" core concepts of react -->
+        <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+        <!-- getting ReactDOM >> a bridge to connect react to web  -->
+        <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+        <script>
+            // 1:element to be created 2nd:attributes 3rd:innerHTML
+            const heading = React.createElement(
+                "h1",
+                {id:"heading"},
+                "Hello World from React"
+            );
+            // >>> returns an object with props
+
+            // creating a root in the "web_browser" use ReactDOM
+            const root = ReactDOM.createRoot(document.getElementById("root"))
+            // make this appear in the browser(rendering to DOM) , by converting the object from heading to actual elements
+            root.render(heading)
+
+        </script>
+    </div>
+</body>
+</html>
