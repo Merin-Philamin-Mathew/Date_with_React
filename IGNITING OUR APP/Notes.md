@@ -71,7 +71,7 @@ https://www.linkedin.com/pulse/what-difference-between-packagejson-package-lockj
     - dont push whatever u can regenerate by the existing code
 
 
-### <code style="color:red">Making a server using parcel</code>
+### <h3 style="color:red">Making a server using parcel</h3>
 - <code style="color : name_color">npx parcel index.html</code>
 
 
@@ -79,31 +79,31 @@ https://www.linkedin.com/pulse/what-difference-between-packagejson-package-lockj
 - npm installs a package while npx executes a package
 
 
-### <code style="color:red">Getting react in our app</code>
+### <h3 style="color:red">Getting react in our app</h3>
 1. By using CDNs >> but not  a good way
 2. By using npm
     - install react as normal dependency<code style="color : name_color">npm install react</code>
 
 
-### <h2 style="color:red">Getting reactDOM in our app</h2>
+### <h3 style="color:red">Getting reactDOM in our app</h3>
 1. By using CDNs >> but not  a good way
 2. By using npm
-    - <h2 style="color : name_color">npm install react-dom</h2>
+    - <code style="color : name_color">npm install react-dom</code>
 
 
-### <h2 style="color:red">Start the server</h2>
-- <h2 style="color : name_color">npx parcel index.html </h2>
+### <h3 style="color:red">Start the server</h3>
+- <code style="color : name_color">npx parcel index.html </code>
 
 
-### <h2 style="color:red">Production ready</h2>
-- <h2 style="color : name_color">npx parcel build index.html </h2>
+### <code style="color:red">Production ready</code>
+- <code style="color : name_color">npx parcel build index.html </code>
 - **dist** 
 - the page which we see in the browser is by the 3 files in the dist folder
-- here it has did all the bundling, minification, treeshaking, compression .... parcel will optimize our h2 like this for the production build
+- here it has did all the bundling, minification, treeshaking, compression .... parcel will optimize our code like this for the production build
 
 
-### <h2 style="color:red">Configuring in preffered browser versions</h2>
+### <code style="color:red">Configuring in preffered browser versions</code>
 - **browserslist**
-- manually write in package.json <h2 style="color : name_color">  "browserslist":[
+- manually write in package.json <code style="color : name_color">  "browserslist":[
     "last 2 versions"
-  ]</h2>
+  ]</code>
