@@ -71,7 +71,7 @@ https://www.linkedin.com/pulse/what-difference-between-packagejson-package-lockj
     - dont push whatever u can regenerate by the existing code
 
 
-### <h3 style="color:red">Making a server using parcel</h3>
+### <h2 style="color:red">Making a server using parcel</h2>
 - <code style="color : name_color">npx parcel index.html</code>
 
 
@@ -79,19 +79,19 @@ https://www.linkedin.com/pulse/what-difference-between-packagejson-package-lockj
 - npm installs a package while npx executes a package
 
 
-### <h3 style="color:red">Getting react in our app</h3>
+### <h2 style="color:red">Getting react in our app</h2>
 1. By using CDNs >> but not  a good way
 2. By using npm
     - install react as normal dependency<code style="color : name_color">npm install react</code>
 
 
-### <h3 style="color:red">Getting reactDOM in our app</h3>
+### <h2 style="color:red">Getting reactDOM in our app</h2>
 1. By using CDNs >> but not  a good way
 2. By using npm
     - <code style="color : name_color">npm install react-dom</code>
 
 
-### <h3 style="color:red">Start the server</h3>
+### <h2 style="color:red">Start the server</h2>
 - <code style="color : name_color">npx parcel index.html </code>
 
 
@@ -102,8 +102,9 @@ https://www.linkedin.com/pulse/what-difference-between-packagejson-package-lockj
 - here it has did all the bundling, minification, treeshaking, compression .... parcel will optimize our code like this for the production build
 
 
-### <code style="color:red">Configuring in preffered browser versions</code>
+### <h2 style="color:red">Configuring in preffered browser versions</h2>
 - **browserslist**
-- manually write in package.json <code style="color : name_color">  "browserslist":[
+- manually write in package.json 
+- <code>  "browserslist":[
     "last 2 versions"
   ]</code>
