@@ -85,25 +85,25 @@ https://www.linkedin.com/pulse/what-difference-between-packagejson-package-lockj
     - install react as normal dependency<code style="color : name_color">npm install react</code>
 
 
-### <span style="color:red">Getting reactDOM in our app</span>
+### <h2 style="color:red">Getting reactDOM in our app</h2>
 1. By using CDNs >> but not  a good way
 2. By using npm
-    - <span style="color : name_color">npm install react-dom</span>
+    - <h2 style="color : name_color">npm install react-dom</h2>
 
 
-### <span style="color:red">Start the server</span>
-- <span style="color : name_color">npx parcel index.html </span>
+### <h2 style="color:red">Start the server</h2>
+- <h2 style="color : name_color">npx parcel index.html </h2>
 
 
-### <span style="color:red">Production ready</span>
-- <span style="color : name_color">npx parcel build index.html </span>
+### <h2 style="color:red">Production ready</h2>
+- <h2 style="color : name_color">npx parcel build index.html </h2>
 - **dist** 
 - the page which we see in the browser is by the 3 files in the dist folder
-- here it has did all the bundling, minification, treeshaking, compression .... parcel will optimize our span like this for the production build
+- here it has did all the bundling, minification, treeshaking, compression .... parcel will optimize our h2 like this for the production build
 
 
-### <span style="color:red">Configuring in preffered browser versions</span>
+### <h2 style="color:red">Configuring in preffered browser versions</h2>
 - **browserslist**
-- manually write in package.json <span style="color : name_color">  "browserslist":[
+- manually write in package.json <h2 style="color : name_color">  "browserslist":[
     "last 2 versions"
-  ]</span>
+  ]</h2>
